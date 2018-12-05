@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<style>
+			*{margin: 0;padding: 0;}
+			header{width: 100%;height: 89px}
+			header img{display: block;margin-left: 82px}
+			aside{width: 100%;height: 425px;background:url(images/02.png) no-repeat;position: relative;}
+			#login{width: 200px; height: 150px; border: 1px solid black; text-align: center;box-shadow:5px 0 5px 0 #000 outset;background: orange;position: absolute; top:40px; right: 130px;}
+			#login input{margin-top: 20px}
+			#login button{margin-top: 15px}
+			footer{width: 100%;height: 170px;padding-top: 80px;text-align: center;}
+			footer ul{margin-left: 460px}
+			footer ul li{float: left;height: 12px;border-right: 1px solid black;line-height: 12px;}
+			footer ul li:nth-child(5){border: none;}
+			footer ul li a{font-size:12px;margin: 0 12px;}
+			footer p,footer span{font-size: 12px;}
+		</style>
+		<script src = 'ajax.js'></script>
+	</head>
+	<body>
+		<header><img src="images/01.png" alt=""></header>
+		<aside>
+			<div id = 'login'>
+				<input type="text" placeholder="用户名" name = 'username'><br/>
+				<input type="password" placeholder="密码" name = 'password'><br/>
+				<button>登陆</button><button>注册</button>
+			</div>
+		</aside>
+		<footer>
+			<ul>
+				<li><a href="https://www.haier.com/cn/about_haier/">关于海尔</a></li>
+				<li><a href="http://www.ehaier.com/helpcenter.php?id=35">售后服务</a></li>
+				<li><a href="">投诉建议</a></li>
+				<li><a href="http://www.ehaier.com/links/friendssite.html">友情链接</a></li>
+				<li><a href="http://www.ehaier.com/helpcenter.php?id=50">联系我们</a></li>
+			</ul><br/>
+			<p>网站备案/许可证号:</p><span>鲁ICP备09096283号</span><span>鲁公网安备37021202000654号</span><br/>
+			<p>Copyright©2000-2018 海尔集团电子商务有限公司 All Rights Reserved</p>
+		</footer>
+	</body>
+</html>
